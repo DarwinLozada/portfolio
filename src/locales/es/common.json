@@ -1,0 +1,23 @@
+{
+	"preposition": {
+		"at": "en"
+	},
+	"time": {
+		"present": "Presente"
+	},
+	"footer": {
+		"links": {
+			"home": "Home",
+			"resume": "Currículum",
+			"projects": "Proyectos",
+			"about-me": "Acerca de Mí"
+		}
+	},
+	"nav": {
+		"links": {
+			"home": "Home",
+			"projects": "Proyectos",
+			"about-me": "Acerca de Mí"
+		}
+	}
+}

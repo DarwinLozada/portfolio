@@ -1,0 +1,61 @@
+{
+  	"hero": {
+		"subtitle": "I solve problems using technology.",
+		"CTAs": {
+			"about-me": "More about me",
+			"resume": "Check my resume"
+		}
+	},
+	"experience": {
+		"title": "EXPERIENCE",
+		"jobs": {
+			"qcode": {
+				"description": "Implementation of an efficient and responsive workers administration system made with ReactJs, Material-UI, GraphQL and ApolloClient. User session management with roles and permissions. Monitoring and control of workers location provided by a mobile app."
+			},
+			"codemera": {
+				"description": "Creation of new features and UI implementations using Server Side React and Django templates on a production environment. Work with UI designers and QA testers to deliver the best experience to end users."
+			}
+		}
+	},
+	"projects": {
+		"title": "MY PROJECTS",
+		"my-projects": {
+			"dogcatcher": {
+				"title": "All your favorite pets in one place",
+				"description": "In DogCatcher you can find the most beautiful and friendly pets, search for them by breed, and also, if you liked that fluffy white-haired cat you saw, you can save it in your favorites and consult them whenever you want and on the device you want."
+			}, 
+			"our-universe": {
+				"title": "Explore our beautiful universe",
+				"description": "OurUniverse uses the APOD (Astronomy Picture of the day) API of the NASA to deliver the most interesting and beautiful images published and commented by professional astronomers."
+			}
+		},
+		"shared": {
+			"CTAs": {
+				"more-info": "More info",
+				"live-site": "Live site!"
+			}
+		},
+		"see-more": "Wanna see more of what I´ve done?"
+	},
+	"my-values": {
+		"title": "What are my values?",
+		"values": {
+			"problem-solving": {
+				"title": "Problem Solving",
+				"description": "My main focus is to give results and keep things simple"
+			},
+			"team-work": {
+				"title": "Team work",
+				"description": "Diversity is something I embrace when I work in new projects"
+			},
+			"ux-dev": {
+				"title": "UX driven development",
+				"description": "The guideline is the experience of the end user"
+			},
+			"scalabilty": {
+				"title": "Scalability / Maintainability",
+				"description": "No one wants to deal with some spaghetti code"
+			}
+		}
+	}
+}

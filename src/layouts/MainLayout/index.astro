@@ -1,0 +1,21 @@
+---
+import '@styles/reset.css'
+import '@styles/global.css'
+import AppLayout from '@layouts/React/AppLayout';
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Astro</title>
+  </head>
+  <body>
+    <AppLayout>
+      <main class="relative z-10 flex min-h-screen flex-grow flex-col items-center justify-center overflow-hidden">
+        <slot />
+      </main>
+    </AppLayout>
+  </body>
+</html>

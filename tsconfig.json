@@ -1,6 +1,28 @@
 {
   "compilerOptions": {
-    // Enable top-level await, and other modern ESM features.
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": false,
+    "esModuleInterop": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@components/*": ["src/components/*"],
+      "@layouts/*": ["src/layouts/*"],
+      "@hooks/*": ["src/react/hooks/*"],
+      "@styles/*": ["src/styles/*"],
+      "@services/*": ["src/services/*"]
+    },
+
+    "incremental": true,
+
+    // Enable top-level await and other modern ESM features.
     "target": "ESNext",
     "module": "ESNext",
     // Enable node-style module resolution, for things like npm package imports.
@@ -10,10 +32,15 @@
     // Enable stricter transpilation for better output.
     "isolatedModules": true,
     // Astro will directly run your TypeScript code, no transpilation needed.
-    "noEmit": true,
-    // Enable strict type checking.
-    "strict": true,
-    // Error when a value import is only used as a type.
-    "importsNotUsedAsValues": "error"
-  }
+    "noEmit": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "**/*.d.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
 }
